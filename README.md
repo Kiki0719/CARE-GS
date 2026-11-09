@@ -5,7 +5,7 @@
 
 CARE-GS is the monocular static 3D Gaussian initialization and refinement module of the MERCY project.
 
-CARE-GS first uses **Hunyuan3D 2.1** to generate an initial 3D mesh from a single RGB image. The mesh is then converted into an initial 3D Gaussian Splatting representation (G0) using **Mesh2Splat**.
+CARE-GS first uses **Hunyuan3D 3.1** to generate an initial 3D mesh from a single RGB image. The mesh is then converted into an initial 3D Gaussian Splatting representation (G0) using **Mesh2Splat**.
 
 Because the reconstructed 3D model may not perfectly match the original input image, CARE-GS performs fixed-intrinsics virtual camera alignment, RGB-guided Gaussian refinement, and geometric continuity enhancement to improve the consistency between the Gaussian representation and the reference image.
 
