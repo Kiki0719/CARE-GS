@@ -60,6 +60,7 @@ git submodule update --init --recursive
 Third-party repositories:
 
 - [Hunyuan3D 2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1)
+- [Hunyuan3D 3.1](https://3d.hunyuan.tencent.com/)
 - [Mesh2Splat](https://github.com/electronicarts/mesh2splat)
 
 **Note:** The clone URL above uses the original GRACE-GS repository address. Replace it with the CARE-GS repository URL after renaming the GitHub repository.
@@ -155,7 +156,7 @@ https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1
 
 Install its dependencies and download the required model checkpoints.
 
-Hunyuan3D 2.1 provides single-image 3D shape generation and texture generation.
+Hunyuan3D 3.1 provides single-image 3D shape generation and texture generation.
 
 ### 3.2 Generate the Initial Mesh
 
